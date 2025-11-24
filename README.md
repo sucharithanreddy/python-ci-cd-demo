@@ -54,13 +54,9 @@ python-ci-cd-demo/
 ├── deploy/
 │ └── deploy.sh
 └── .github/
-└── workflows/
-└── cicd.yml
+   └── workflows/
+      └── cicd.yml
 
-yaml
-Copy code
-
----
 
 ## 🌐 API Endpoints
 
