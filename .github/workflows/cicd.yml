@@ -31,7 +31,7 @@ jobs:
           pip install pytest
 
       - name: Run tests
-        run: pytest
+        run: PYTHONPATH=. pytest
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
